@@ -6,4 +6,6 @@ git checkout -b BUG_4
 git add *.*
 git commit -m "commit message"
 git push origin master
-git push --recurse-submodules=check --progress "origin" refs/heads/BUG_3:refs/heads/master
+git push --recurse-submodules=check --progress "origin" refs/heads/BUG_4:refs/heads/master
+
+$ git push --recurse-submodules=check --progress "origin" refs/heads/BUG_4:refs/heads/BUG_1
