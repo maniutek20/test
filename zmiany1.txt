@@ -1,4 +1,9 @@
 jakies zmiany
 drugie podejście
-trzecie podejscie
-"git" push --recurse-submodules=check --progress "origin" refs/heads/BUG_3:refs/heads/master
+trzecie 
+
+git checkout -b BUG_4
+git add *.*
+git commit -m "commit message"
+git push origin master
+git push --recurse-submodules=check --progress "origin" refs/heads/BUG_3:refs/heads/master
