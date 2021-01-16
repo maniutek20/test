@@ -1,3 +1,4 @@
 jakies zmiany
 drugie podejście
 trzecie podejscie
+"git" push --recurse-submodules=check --progress "origin" refs/heads/BUG_3:refs/heads/master
